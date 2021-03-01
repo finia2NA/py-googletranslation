@@ -3,7 +3,7 @@
 This is a guide for you to get some ideas~
 
 ## Dependencies
-To make sure that the following instructions work, you will need to have the dependencies installed. To install them all at once, you can use pipenv: `pipenv install`.
+To make sure that the following instructions work, you will need to have the dependencies installed. To install them all at once, you can use pipenv: `pipenv install` after cloning the repository.
 
 Alternatively, you can manually install the following dependencies:
 - requests,
@@ -11,7 +11,9 @@ Alternatively, you can manually install the following dependencies:
 - nltk,
 - docx2txt,
 - PyPDF2,
+and for testing:
 - coveralls==1.1
+- pytest
 
 ## Installation
 

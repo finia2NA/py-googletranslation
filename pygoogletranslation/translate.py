@@ -46,6 +46,7 @@ class Translator:
                 _text = _text.replace("'", "")
                 _text = _text.replace("“", "")
                 _text = _text.replace("”", "")
+                _text = _text.replace("。", ".") #fix for japanese points ending translation
                 text[i] = _text
                 i += 1
         else:
@@ -53,6 +54,7 @@ class Translator:
             text = text.replace("'", "")
             text = text.replace("“", "")
             text = text.replace("”", "")
+            text = text.replace("。", ".") #fix for japanese points ending translation
         
         if src != 'auto':
             if src.lower() in LANGCODES:
