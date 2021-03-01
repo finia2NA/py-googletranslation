@@ -3,10 +3,14 @@
 This is a guide for you to get some ideas~
 
 ## Dependencies
+To make sure that the following instructions work, you will need to have the dependencies installed. To install them all at once, you can use pipenv: `pipenv install`.
 
-To make sure that the following instructions work, please install the following dependencies
-on you machine:
-
+Alternatively, you can manually install the following dependencies:
+- requests,
+- unidecode,
+- nltk,
+- docx2txt,
+- PyPDF2,
 - coveralls==1.1
 
 ## Installation
